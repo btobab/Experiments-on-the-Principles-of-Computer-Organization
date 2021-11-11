@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/btobab/CLionProjects/Ccomponent/calculate.c" "/Users/btobab/CLionProjects/Ccomponent/cmake-build-debug/CMakeFiles/Ccomponent.dir/calculate.c.o"
+  "/Users/btobab/CLionProjects/Ccomponent/lib/calculate.c" "/Users/btobab/CLionProjects/Ccomponent/cmake-build-debug/CMakeFiles/Ccomponent.dir/lib/calculate.c.o"
+  "/Users/btobab/CLionProjects/Ccomponent/lib/number.c" "/Users/btobab/CLionProjects/Ccomponent/cmake-build-debug/CMakeFiles/Ccomponent.dir/lib/number.c.o"
   "/Users/btobab/CLionProjects/Ccomponent/main.c" "/Users/btobab/CLionProjects/Ccomponent/cmake-build-debug/CMakeFiles/Ccomponent.dir/main.c.o"
-  "/Users/btobab/CLionProjects/Ccomponent/number.c" "/Users/btobab/CLionProjects/Ccomponent/cmake-build-debug/CMakeFiles/Ccomponent.dir/number.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

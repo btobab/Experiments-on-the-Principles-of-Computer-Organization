@@ -79,44 +79,44 @@ CMakeFiles/Ccomponent.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Ccomponent.dir/main.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/btobab/CLionProjects/Ccomponent/main.c -o CMakeFiles/Ccomponent.dir/main.c.s
 
-CMakeFiles/Ccomponent.dir/number.c.o: CMakeFiles/Ccomponent.dir/flags.make
-CMakeFiles/Ccomponent.dir/number.c.o: ../number.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/btobab/CLionProjects/Ccomponent/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Ccomponent.dir/number.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Ccomponent.dir/number.c.o -c /Users/btobab/CLionProjects/Ccomponent/number.c
+CMakeFiles/Ccomponent.dir/lib/number.c.o: CMakeFiles/Ccomponent.dir/flags.make
+CMakeFiles/Ccomponent.dir/lib/number.c.o: ../lib/number.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/btobab/CLionProjects/Ccomponent/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Ccomponent.dir/lib/number.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Ccomponent.dir/lib/number.c.o -c /Users/btobab/CLionProjects/Ccomponent/lib/number.c
 
-CMakeFiles/Ccomponent.dir/number.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Ccomponent.dir/number.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/btobab/CLionProjects/Ccomponent/number.c > CMakeFiles/Ccomponent.dir/number.c.i
+CMakeFiles/Ccomponent.dir/lib/number.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Ccomponent.dir/lib/number.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/btobab/CLionProjects/Ccomponent/lib/number.c > CMakeFiles/Ccomponent.dir/lib/number.c.i
 
-CMakeFiles/Ccomponent.dir/number.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Ccomponent.dir/number.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/btobab/CLionProjects/Ccomponent/number.c -o CMakeFiles/Ccomponent.dir/number.c.s
+CMakeFiles/Ccomponent.dir/lib/number.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Ccomponent.dir/lib/number.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/btobab/CLionProjects/Ccomponent/lib/number.c -o CMakeFiles/Ccomponent.dir/lib/number.c.s
 
-CMakeFiles/Ccomponent.dir/calculate.c.o: CMakeFiles/Ccomponent.dir/flags.make
-CMakeFiles/Ccomponent.dir/calculate.c.o: ../calculate.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/btobab/CLionProjects/Ccomponent/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Ccomponent.dir/calculate.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Ccomponent.dir/calculate.c.o -c /Users/btobab/CLionProjects/Ccomponent/calculate.c
+CMakeFiles/Ccomponent.dir/lib/calculate.c.o: CMakeFiles/Ccomponent.dir/flags.make
+CMakeFiles/Ccomponent.dir/lib/calculate.c.o: ../lib/calculate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/btobab/CLionProjects/Ccomponent/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Ccomponent.dir/lib/calculate.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Ccomponent.dir/lib/calculate.c.o -c /Users/btobab/CLionProjects/Ccomponent/lib/calculate.c
 
-CMakeFiles/Ccomponent.dir/calculate.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Ccomponent.dir/calculate.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/btobab/CLionProjects/Ccomponent/calculate.c > CMakeFiles/Ccomponent.dir/calculate.c.i
+CMakeFiles/Ccomponent.dir/lib/calculate.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Ccomponent.dir/lib/calculate.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/btobab/CLionProjects/Ccomponent/lib/calculate.c > CMakeFiles/Ccomponent.dir/lib/calculate.c.i
 
-CMakeFiles/Ccomponent.dir/calculate.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Ccomponent.dir/calculate.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/btobab/CLionProjects/Ccomponent/calculate.c -o CMakeFiles/Ccomponent.dir/calculate.c.s
+CMakeFiles/Ccomponent.dir/lib/calculate.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Ccomponent.dir/lib/calculate.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/btobab/CLionProjects/Ccomponent/lib/calculate.c -o CMakeFiles/Ccomponent.dir/lib/calculate.c.s
 
 # Object files for target Ccomponent
 Ccomponent_OBJECTS = \
 "CMakeFiles/Ccomponent.dir/main.c.o" \
-"CMakeFiles/Ccomponent.dir/number.c.o" \
-"CMakeFiles/Ccomponent.dir/calculate.c.o"
+"CMakeFiles/Ccomponent.dir/lib/number.c.o" \
+"CMakeFiles/Ccomponent.dir/lib/calculate.c.o"
 
 # External object files for target Ccomponent
 Ccomponent_EXTERNAL_OBJECTS =
 
 Ccomponent: CMakeFiles/Ccomponent.dir/main.c.o
-Ccomponent: CMakeFiles/Ccomponent.dir/number.c.o
-Ccomponent: CMakeFiles/Ccomponent.dir/calculate.c.o
+Ccomponent: CMakeFiles/Ccomponent.dir/lib/number.c.o
+Ccomponent: CMakeFiles/Ccomponent.dir/lib/calculate.c.o
 Ccomponent: CMakeFiles/Ccomponent.dir/build.make
 Ccomponent: CMakeFiles/Ccomponent.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/btobab/CLionProjects/Ccomponent/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable Ccomponent"

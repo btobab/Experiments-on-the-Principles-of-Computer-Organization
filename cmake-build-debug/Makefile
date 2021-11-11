@@ -129,29 +129,53 @@ Ccomponent/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ccomponent.dir/build.make CMakeFiles/Ccomponent.dir/build
 .PHONY : Ccomponent/fast
 
-calculate.o: calculate.c.o
-.PHONY : calculate.o
+lib/calculate.o: lib/calculate.c.o
+.PHONY : lib/calculate.o
 
 # target to build an object file
-calculate.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ccomponent.dir/build.make CMakeFiles/Ccomponent.dir/calculate.c.o
-.PHONY : calculate.c.o
+lib/calculate.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ccomponent.dir/build.make CMakeFiles/Ccomponent.dir/lib/calculate.c.o
+.PHONY : lib/calculate.c.o
 
-calculate.i: calculate.c.i
-.PHONY : calculate.i
+lib/calculate.i: lib/calculate.c.i
+.PHONY : lib/calculate.i
 
 # target to preprocess a source file
-calculate.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ccomponent.dir/build.make CMakeFiles/Ccomponent.dir/calculate.c.i
-.PHONY : calculate.c.i
+lib/calculate.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ccomponent.dir/build.make CMakeFiles/Ccomponent.dir/lib/calculate.c.i
+.PHONY : lib/calculate.c.i
 
-calculate.s: calculate.c.s
-.PHONY : calculate.s
+lib/calculate.s: lib/calculate.c.s
+.PHONY : lib/calculate.s
 
 # target to generate assembly for a file
-calculate.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ccomponent.dir/build.make CMakeFiles/Ccomponent.dir/calculate.c.s
-.PHONY : calculate.c.s
+lib/calculate.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ccomponent.dir/build.make CMakeFiles/Ccomponent.dir/lib/calculate.c.s
+.PHONY : lib/calculate.c.s
+
+lib/number.o: lib/number.c.o
+.PHONY : lib/number.o
+
+# target to build an object file
+lib/number.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ccomponent.dir/build.make CMakeFiles/Ccomponent.dir/lib/number.c.o
+.PHONY : lib/number.c.o
+
+lib/number.i: lib/number.c.i
+.PHONY : lib/number.i
+
+# target to preprocess a source file
+lib/number.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ccomponent.dir/build.make CMakeFiles/Ccomponent.dir/lib/number.c.i
+.PHONY : lib/number.c.i
+
+lib/number.s: lib/number.c.s
+.PHONY : lib/number.s
+
+# target to generate assembly for a file
+lib/number.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ccomponent.dir/build.make CMakeFiles/Ccomponent.dir/lib/number.c.s
+.PHONY : lib/number.c.s
 
 main.o: main.c.o
 .PHONY : main.o
@@ -177,30 +201,6 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ccomponent.dir/build.make CMakeFiles/Ccomponent.dir/main.c.s
 .PHONY : main.c.s
 
-number.o: number.c.o
-.PHONY : number.o
-
-# target to build an object file
-number.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ccomponent.dir/build.make CMakeFiles/Ccomponent.dir/number.c.o
-.PHONY : number.c.o
-
-number.i: number.c.i
-.PHONY : number.i
-
-# target to preprocess a source file
-number.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ccomponent.dir/build.make CMakeFiles/Ccomponent.dir/number.c.i
-.PHONY : number.c.i
-
-number.s: number.c.s
-.PHONY : number.s
-
-# target to generate assembly for a file
-number.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ccomponent.dir/build.make CMakeFiles/Ccomponent.dir/number.c.s
-.PHONY : number.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -210,15 +210,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Ccomponent"
-	@echo "... calculate.o"
-	@echo "... calculate.i"
-	@echo "... calculate.s"
+	@echo "... lib/calculate.o"
+	@echo "... lib/calculate.i"
+	@echo "... lib/calculate.s"
+	@echo "... lib/number.o"
+	@echo "... lib/number.i"
+	@echo "... lib/number.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... number.o"
-	@echo "... number.i"
-	@echo "... number.s"
 .PHONY : help
 
 

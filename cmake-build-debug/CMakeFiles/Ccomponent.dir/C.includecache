@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/btobab/CLionProjects/Ccomponent/calculate.c
+/Users/btobab/CLionProjects/Ccomponent/lib/calculate.c
 calculate.h
-/Users/btobab/CLionProjects/Ccomponent/calculate.h
+/Users/btobab/CLionProjects/Ccomponent/lib/calculate.h
 string.h
 -
 stdlib.h
@@ -16,5 +16,5 @@ stdlib.h
 stdio.h
 -
 
-/Users/btobab/CLionProjects/Ccomponent/calculate.h
+/Users/btobab/CLionProjects/Ccomponent/lib/calculate.h
 

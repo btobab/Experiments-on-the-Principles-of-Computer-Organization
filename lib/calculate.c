@@ -35,8 +35,12 @@ char *addsub(const char int1[], char int2[], int flag, int n) {
     for (i = 0; i < n; ++i) {
         tmp = tmp | i(int2[i]);
     }
-    sign[0] = c(flag ^ carry);
-    sign[1] = c(flag | carry | i(int2[0]));
+    // positive plus positive | negative plus negative | positive minus negative
+    sign[0] = c(((flag ^ 1) & (i(int1[0]) ^ 1) & i(int2[0])) |
+                ((flag ^ 1) & i(int1[0]) & (i(int2[0]) ^ 1)) |
+                (flag & (i(int1[0]) ^ 1) & i(int2[0])));
+    // plus | minus
+    sign[1] = c(((flag ^ 1) & carry) | (flag & (i(int1[0]) ^ 1) & i(int2[0])));
     sign[2] = c(flag & i(int2[0]));
     sign[3] = c(tmp ^ 1);
     return sign;
