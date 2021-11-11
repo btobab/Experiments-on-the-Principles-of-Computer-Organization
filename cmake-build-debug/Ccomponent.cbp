@@ -76,19 +76,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/btobab/CLionProjects/Ccomponent/calculate.c">
+		<Unit filename="/Users/btobab/CLionProjects/Ccomponent/lib/calculate.c">
 			<Option target="Ccomponent"/>
 		</Unit>
-		<Unit filename="/Users/btobab/CLionProjects/Ccomponent/calculate.h">
+		<Unit filename="/Users/btobab/CLionProjects/Ccomponent/lib/calculate.h">
+			<Option target="Ccomponent"/>
+		</Unit>
+		<Unit filename="/Users/btobab/CLionProjects/Ccomponent/lib/number.c">
+			<Option target="Ccomponent"/>
+		</Unit>
+		<Unit filename="/Users/btobab/CLionProjects/Ccomponent/lib/number.h">
 			<Option target="Ccomponent"/>
 		</Unit>
 		<Unit filename="/Users/btobab/CLionProjects/Ccomponent/main.c">
-			<Option target="Ccomponent"/>
-		</Unit>
-		<Unit filename="/Users/btobab/CLionProjects/Ccomponent/number.c">
-			<Option target="Ccomponent"/>
-		</Unit>
-		<Unit filename="/Users/btobab/CLionProjects/Ccomponent/number.h">
 			<Option target="Ccomponent"/>
 		</Unit>
 		<Unit filename="/Users/btobab/CLionProjects/Ccomponent/CMakeLists.txt">
