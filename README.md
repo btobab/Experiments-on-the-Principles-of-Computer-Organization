@@ -4,7 +4,7 @@
 
 **Hi, I'm yuqili, 19th undergraduate in JIT.**
 
-**I'm in SE college(software engineering). Unfortunately, I'm not interested in the lessons taught in school at all and I'm crazy about learning AI. **
+**I'm in SE college(software engineering). Unfortunately, I'm not interested in the lessons taught in school at all and I'm crazy about learning AI.**
 
 **I have to say, we must make what we are to seek completely clear. So, follow your mind and don't waste your life if you are not interested in the lessons in school like me.**
 
