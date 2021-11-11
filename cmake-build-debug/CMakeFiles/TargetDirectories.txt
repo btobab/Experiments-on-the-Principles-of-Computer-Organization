@@ -1,0 +1,3 @@
+/Users/btobab/CLionProjects/Ccomponent/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/btobab/CLionProjects/Ccomponent/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/btobab/CLionProjects/Ccomponent/cmake-build-debug/CMakeFiles/Ccomponent.dir

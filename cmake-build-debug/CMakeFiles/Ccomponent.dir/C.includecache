@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/btobab/CLionProjects/Ccomponent/calculate.c
+calculate.h
+/Users/btobab/CLionProjects/Ccomponent/calculate.h
+string.h
+-
+stdlib.h
+-
+stdio.h
+-
+
+/Users/btobab/CLionProjects/Ccomponent/calculate.h
+
