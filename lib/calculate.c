@@ -20,10 +20,11 @@ void toComplement(char binary[], int n) {
 }
 
 char *addsub(const char int1[], char int2[], int flag, int n) {
-    int origin = 0, carry = 0, i = 0, tmp = 0, int1_sign = -1, int2_sign = -1;
+    int origin = 0, carry = 0, i = 0, tmp = 0, int1_sign = -1, int2_sign = -1, _int2_sign = -1;
     char *sign = (char *) malloc(sizeof(char) * SIGN_LEN);
     // sign[0]:OF, sign[1]:CF, sign[2]:SF, sign[3]:ZF
     memset(sign, '\0', SIGN_LEN);
+    _int2_sign = i(int2[0]);
     if (flag) {
         toComplement(int2, n);
     }
@@ -39,15 +40,15 @@ char *addsub(const char int1[], char int2[], int flag, int n) {
     int2_sign = i(int2[0]);
     // OF: overflow flag
     // positive plus positive | negative plus negative | positive minus negative | negative minus positive
-    sign[0] = c(((flag ^ 1) & (int1_sign ^ 1) & int2_sign) |
-                ((flag ^ 1) & int1_sign & (int2_sign ^ 1)) |
+    sign[0] = c(((flag ^ 1) & (int1_sign ^ 1) & (_int2_sign ^ 1) & int2_sign) |
+                ((flag ^ 1) & int1_sign & _int2_sign & (int2_sign ^ 1)) |
                 (flag & (int1_sign ^ 1) & int2_sign) |
-                (flag & int1_sign & (int2_sign ^ 1)));
+                (flag & int1_sign & int2_sign));
     // CF: carry flag
     // plus | minus
     sign[1] = c(((flag ^ 1) & carry) | (flag & (int1_sign ^ 1) & int2_sign));
     // SF: sign flag
-    sign[2] = c(flag & int2_sign);
+    sign[2] = c(int2_sign);
     // ZF: zero flag
     sign[3] = c(tmp ^ 1);
     return sign;

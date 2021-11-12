@@ -9,7 +9,12 @@
 #define INF 1e9
 #define NaN -1e9
 #define CALCULATE 1
+#define DENORMS -1
+
 #define COMPLEMENT 0
+#define UNSIGNED 0
+#define SIGNED 0
+#define FLOAT 1
 
 int main() {
 #if NUMBER
@@ -18,27 +23,30 @@ int main() {
     int svalue = 0;
     float fvalue;
     memset(binary, '0', N + 1);
-#ifndef BOOL
+#if UNSIGNED
     fgets(binary, N+1, stdin);
     uvalue = unsignedToValue(binary, N);
     printf("unsigned value is %u\n", uvalue);
 #endif
 
-#ifndef BOOL
+#if SIGNED
     fgets(binary, N+1, stdin);
     svalue = intToValue(binary, N);
     printf("signed value is %d\n", svalue);
     return 0;
 #endif
 
-#if BOOL
+#if FLOAT
     fgets(binary, N + 1, stdin);
     fvalue = floatToValue(binary, N);
     if (fvalue == INF) {
         printf("float value is INF\n");
     } else if (fvalue == NaN) {
         printf("float value is NaN\n");
-    } else {
+    } else if (fvalue == DENORMS) {
+        printf("float value is denorms\n");
+    }
+    else {
         printf("float value is %f\n", fvalue);
     }
     return 0;

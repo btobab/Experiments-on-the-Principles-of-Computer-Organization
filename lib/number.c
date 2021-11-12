@@ -7,6 +7,7 @@
 #define BIAS 127
 #define INF 1e9
 #define NaN -1e9
+#define DENORMS -1
 
 void strToNumber(int number[], const char *binary, int n) {
     int i = 0;
@@ -62,8 +63,7 @@ float floatToValue(char *binary, int n) {
             return NaN;
         }
     } else if (e == 0) {
-        exp = 1 - BIAS;
-        frac = (float) frac_c / (float)frac_m;
+        return DENORMS;
     } else {
         exp = e - BIAS;
         frac = (float) frac_c / (float)frac_m + 1;
