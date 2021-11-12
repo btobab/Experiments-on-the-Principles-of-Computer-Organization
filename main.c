@@ -64,7 +64,7 @@ int main() {
     fgets(int2, N + 1, stdin);
     strcpy(int3, int2);
     flag = (op == '+' ? 0 : 1);
-    //printf("int1 is %s\nflag is %d\nint2 is %s\n", int1, flag, int2);
+    // printf("int1 is %s\n flag is %d\n int2 is %s\n", int1, flag, int2);
     sign = addsub(int1, int2, flag, N);
     printf("%s %c %s equals %s\n", int1, op, int3, int2);
     printf("OF: %c, CF: %c, SF: %c, ZF: %c\n", sign[0], sign[1], sign[2], sign[3]);
