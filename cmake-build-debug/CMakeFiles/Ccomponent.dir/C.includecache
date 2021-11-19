@@ -6,13 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/Users/btobab/CLionProjects/Ccomponent/lib/calculate.c
-calculate.h
 /Users/btobab/CLionProjects/Ccomponent/lib/calculate.h
+
+/Users/btobab/CLionProjects/Ccomponent/lib/number.h
+
+/Users/btobab/CLionProjects/Ccomponent/lib/tools.h
+
+/Users/btobab/CLionProjects/Ccomponent/main.c
+stdio.h
+-
 string.h
 -
 stdlib.h
 -
-
+lib/number.h
+/Users/btobab/CLionProjects/Ccomponent/lib/number.h
+lib/calculate.h
 /Users/btobab/CLionProjects/Ccomponent/lib/calculate.h
+lib/tools.h
+/Users/btobab/CLionProjects/Ccomponent/lib/tools.h
 

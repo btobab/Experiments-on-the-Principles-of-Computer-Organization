@@ -4,10 +4,17 @@
 CMakeFiles/Ccomponent.dir/lib/calculate.c.o
  /Users/btobab/CLionProjects/Ccomponent/lib/calculate.c
  /Users/btobab/CLionProjects/Ccomponent/lib/calculate.h
+ /Users/btobab/CLionProjects/Ccomponent/lib/number.h
+ /Users/btobab/CLionProjects/Ccomponent/lib/tools.h
 CMakeFiles/Ccomponent.dir/lib/number.c.o
  /Users/btobab/CLionProjects/Ccomponent/lib/number.c
  /Users/btobab/CLionProjects/Ccomponent/lib/number.h
+ /Users/btobab/CLionProjects/Ccomponent/lib/tools.h
+CMakeFiles/Ccomponent.dir/lib/tools.c.o
+ /Users/btobab/CLionProjects/Ccomponent/lib/tools.c
+ /Users/btobab/CLionProjects/Ccomponent/lib/tools.h
 CMakeFiles/Ccomponent.dir/main.c.o
  /Users/btobab/CLionProjects/Ccomponent/lib/calculate.h
  /Users/btobab/CLionProjects/Ccomponent/lib/number.h
+ /Users/btobab/CLionProjects/Ccomponent/lib/tools.h
  /Users/btobab/CLionProjects/Ccomponent/main.c

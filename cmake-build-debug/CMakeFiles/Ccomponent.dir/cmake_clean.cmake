@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Ccomponent.dir/lib/calculate.c.o"
   "CMakeFiles/Ccomponent.dir/lib/number.c.o"
+  "CMakeFiles/Ccomponent.dir/lib/tools.c.o"
   "CMakeFiles/Ccomponent.dir/main.c.o"
   "Ccomponent"
   "Ccomponent.pdb"

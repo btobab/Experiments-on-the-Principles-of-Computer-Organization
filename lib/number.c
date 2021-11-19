@@ -1,5 +1,5 @@
 #include "number.h"
-#include <string.h>
+#include "tools.h"
 #include <stdio.h>
 
 #define EXP_LEN 8
@@ -9,22 +9,6 @@
 #define NaN -1e9
 #define DENORMS -1
 
-void strToNumber(int number[], const char *binary, int n) {
-    int i = 0;
-    memset(number, 0, sizeof(int) * n);
-    while (binary[i] != '\0') {
-        number[i] = binary[i] - '0';
-        i++;
-    }
-}
-
-void copy_arr(const char *src, char *dst, int start, int end) {
-    int i, j = 0;
-    for (i = start; i <= end; ++i) {
-        dst[j++] = src[i];
-    }
-    dst[j] = '\0';
-}
 
 unsigned int unsignedToValue(char *binary, int n) {
     int number[n], i;
@@ -49,11 +33,13 @@ int intToValue(char *binary, int n) {
 }
 
 float floatToValue(char *binary, int n) {
-    int number[n], e, exp, frac_m = 1 << FRAC_LEN, frac_c;
+    int e, exp, frac_m = 1 << FRAC_LEN, frac_c;
     float frac, value;
     char exp_arr[EXP_LEN + 1], frac_arr[FRAC_LEN + 1];
     copy_arr(binary, exp_arr, 1, EXP_LEN);
     copy_arr(binary, frac_arr, 1 + EXP_LEN, n - 1);
+    exp_arr[EXP_LEN] = '\0';
+    frac_arr[FRAC_LEN] = '\0';
     e = (int) unsignedToValue(exp_arr, EXP_LEN);
     frac_c = (int) unsignedToValue(frac_arr, FRAC_LEN);
     if (e == 0xff) {
@@ -66,12 +52,12 @@ float floatToValue(char *binary, int n) {
         return DENORMS;
     } else {
         exp = e - BIAS;
-        frac = (float) frac_c / (float)frac_m + 1;
+        frac = (float) frac_c / (float) frac_m + 1;
     }
     if (exp < 0) {
-        value = frac / (float)(1 << -exp);
+        value = frac / (float) (1 << -exp);
     } else {
-        value = frac * (float)(1 << exp);
+        value = frac * (float) (1 << exp);
     }
     if (binary[0] == '1') {
         value *= -1;
