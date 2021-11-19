@@ -18,10 +18,12 @@
 
 ```c
 ├──lib: functions library I encapsulated
+│  ├──tool.h
+│  ├──tool.c: supply small tool function
 │  ├──number.h
 │  ├──number.c: represents unsigned number, signed number, float
 │  ├──calculate.h
-│  └──calculate.c: add or sub signed or unsigned number
+│  └──calculate.c: add or sub signed or unsigned number & add float & mul unsigned number
 ├──main.c: you can run the project via the c file
 ```
 
