@@ -88,6 +88,12 @@
 		<Unit filename="/Users/btobab/CLionProjects/Ccomponent/lib/number.h">
 			<Option target="Ccomponent"/>
 		</Unit>
+		<Unit filename="/Users/btobab/CLionProjects/Ccomponent/lib/tools.c">
+			<Option target="Ccomponent"/>
+		</Unit>
+		<Unit filename="/Users/btobab/CLionProjects/Ccomponent/lib/tools.h">
+			<Option target="Ccomponent"/>
+		</Unit>
 		<Unit filename="/Users/btobab/CLionProjects/Ccomponent/main.c">
 			<Option target="Ccomponent"/>
 		</Unit>

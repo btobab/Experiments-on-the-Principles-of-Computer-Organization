@@ -177,6 +177,30 @@ lib/number.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ccomponent.dir/build.make CMakeFiles/Ccomponent.dir/lib/number.c.s
 .PHONY : lib/number.c.s
 
+lib/tools.o: lib/tools.c.o
+.PHONY : lib/tools.o
+
+# target to build an object file
+lib/tools.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ccomponent.dir/build.make CMakeFiles/Ccomponent.dir/lib/tools.c.o
+.PHONY : lib/tools.c.o
+
+lib/tools.i: lib/tools.c.i
+.PHONY : lib/tools.i
+
+# target to preprocess a source file
+lib/tools.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ccomponent.dir/build.make CMakeFiles/Ccomponent.dir/lib/tools.c.i
+.PHONY : lib/tools.c.i
+
+lib/tools.s: lib/tools.c.s
+.PHONY : lib/tools.s
+
+# target to generate assembly for a file
+lib/tools.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ccomponent.dir/build.make CMakeFiles/Ccomponent.dir/lib/tools.c.s
+.PHONY : lib/tools.c.s
+
 main.o: main.c.o
 .PHONY : main.o
 
@@ -216,6 +240,9 @@ help:
 	@echo "... lib/number.o"
 	@echo "... lib/number.i"
 	@echo "... lib/number.s"
+	@echo "... lib/tools.o"
+	@echo "... lib/tools.i"
+	@echo "... lib/tools.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

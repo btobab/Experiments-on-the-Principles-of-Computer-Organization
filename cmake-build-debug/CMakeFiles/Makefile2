@@ -81,12 +81,12 @@ clean: CMakeFiles/Ccomponent.dir/clean
 CMakeFiles/Ccomponent.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ccomponent.dir/build.make CMakeFiles/Ccomponent.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ccomponent.dir/build.make CMakeFiles/Ccomponent.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/btobab/CLionProjects/Ccomponent/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target Ccomponent"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/btobab/CLionProjects/Ccomponent/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target Ccomponent"
 .PHONY : CMakeFiles/Ccomponent.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Ccomponent.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/btobab/CLionProjects/Ccomponent/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/btobab/CLionProjects/Ccomponent/cmake-build-debug/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Ccomponent.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/btobab/CLionProjects/Ccomponent/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/Ccomponent.dir/rule

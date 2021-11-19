@@ -3,4 +3,4 @@ project(Ccomponent C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Ccomponent main.c lib/number.h lib/number.c lib/calculate.c lib/calculate.h)
+add_executable(Ccomponent main.c lib/number.h lib/number.c lib/calculate.c lib/calculate.h lib/tools.c lib/tools.h)

@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/btobab/CLionProjects/Ccomponent/lib/calculate.c" "/Users/btobab/CLionProjects/Ccomponent/cmake-build-debug/CMakeFiles/Ccomponent.dir/lib/calculate.c.o"
   "/Users/btobab/CLionProjects/Ccomponent/lib/number.c" "/Users/btobab/CLionProjects/Ccomponent/cmake-build-debug/CMakeFiles/Ccomponent.dir/lib/number.c.o"
+  "/Users/btobab/CLionProjects/Ccomponent/lib/tools.c" "/Users/btobab/CLionProjects/Ccomponent/cmake-build-debug/CMakeFiles/Ccomponent.dir/lib/tools.c.o"
   "/Users/btobab/CLionProjects/Ccomponent/main.c" "/Users/btobab/CLionProjects/Ccomponent/cmake-build-debug/CMakeFiles/Ccomponent.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")

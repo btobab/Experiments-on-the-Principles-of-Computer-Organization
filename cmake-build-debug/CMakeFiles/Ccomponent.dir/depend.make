@@ -3,11 +3,18 @@
 
 CMakeFiles/Ccomponent.dir/lib/calculate.c.o: \
  ../lib/calculate.c \
- ../lib/calculate.h
+ ../lib/calculate.h \
+ ../lib/number.h \
+ ../lib/tools.h
 CMakeFiles/Ccomponent.dir/lib/number.c.o: \
  ../lib/number.c \
- ../lib/number.h
+ ../lib/number.h \
+ ../lib/tools.h
+CMakeFiles/Ccomponent.dir/lib/tools.c.o: \
+ ../lib/tools.c \
+ ../lib/tools.h
 CMakeFiles/Ccomponent.dir/main.c.o: \
  ../lib/calculate.h \
  ../lib/number.h \
+ ../lib/tools.h \
  ../main.c
