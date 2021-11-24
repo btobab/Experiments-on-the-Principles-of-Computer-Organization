@@ -7,10 +7,12 @@
 
 #define N 32
 
+// specific value
 #define INF 1e9
 #define NaN -1e9
 #define DENORMS -1
 
+// switch
 #define UNSIGNED 0
 #define SIGNED 0
 #define FLOAT 0
@@ -34,7 +36,7 @@ int main() {
 #endif
 
 #if SIGNED
-    fgets(binary, N+1, stdin);
+    fgets(binary, N + 1, stdin);
     svalue = intToValue(binary, N);
     printf("signed value is %d\n", svalue);
     return 0;

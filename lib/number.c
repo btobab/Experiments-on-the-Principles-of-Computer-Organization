@@ -21,13 +21,16 @@ unsigned int unsignedToValue(char *binary, int n) {
 }
 
 int intToValue(char *binary, int n) {
-    int number[n], svalue = 0, _svalue;
+    int number[n], svalue;
+    unsigned int _svalue = 0;
+    long long shift = 1;
+    shift = shift << n;
     strToNumber(number, binary, n);
-    _svalue = (int) unsignedToValue(binary, n);
+    _svalue = unsignedToValue(binary, n);
     if (number[0] == 0) {
-        svalue = _svalue;
+        svalue = (int)_svalue;
     } else {
-        svalue = (1 << n) - _svalue;
+        svalue = (int)(_svalue - shift);
     }
     return svalue;
 }
